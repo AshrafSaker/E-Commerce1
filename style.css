@@ -46,8 +46,8 @@ header {
     font-size: 15px;
     padding: 6px;
     color:black;
-    width:150px
-    border: 1px solid #1111111;
+    width:150px;
+    border: 1px solid #111111;
     margin-top: 5px;
     border-radius: 5px;
     outline: none;
@@ -55,9 +55,14 @@ header {
 
 #search-button {
     padding: 5px 10px;
-    background-color: #0f74f5;
+    background-color: lightblue;
     border-radius: 5px;
     cursor:pointer;
+}
+
+#search-button:hover {
+    color: aliceblue;
+    background-color: blue;
 }
 
 nav {
