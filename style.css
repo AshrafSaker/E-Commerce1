@@ -59,3 +59,53 @@ header {
     border-radius: 5px;
     cursor:pointer;
 }
+
+nav {
+    height: 35px;
+    width: 100%;
+    background-color: lavender;
+    border-bottom:3px solid #dbdadf;
+}
+
+.social ul {
+    list-style: none;
+    margin-left: 20px; 
+}
+
+.social ul li {
+    float:right;
+    padding:5px 10px;
+    margin-top: 5px;
+}
+
+.social ul li a {
+    color:rgb(87, 86, 86) 
+}
+
+.social ul li a :hover {
+    color: #0f74f5;
+}
+
+.section ul {
+    list-style: none;
+}
+
+.section ul li {
+    float:left;
+    padding:5px 3px;
+    margin-left: 5px;
+}
+
+.section ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    padding: 5px 3px;
+    border-radius: 5px;
+}
+
+.section ul li a:hover {
+    background-color:#0f74f5;
+    color:white;
+}
+
