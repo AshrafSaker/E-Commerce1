@@ -114,5 +114,71 @@ nav {
     color:white;
 }
 
+.last-post {
+    width: 100%;
+    height: 50px;
+    background-color: #f8f7f8;
+    border:4px solid white;
 
+}
 
+.last-post h4 {
+    float:right;
+    color: #080808;
+    font-size: 20px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.last-post ul {
+    list-style: none;
+    margin: 2px;
+    padding: 3px;
+}
+
+.last-post .span-img img {
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.cart ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.cart ul li {
+    display: inline-block;
+    margin-left: 15px;
+    padding: 2px;
+    font-size: 25px;
+}
+
+.cart ul li a i{
+    color: #080808;
+
+}
+
+.cart ul li a i:hover {
+    color: #0f74f5;
+}
+
+.cart-icon {
+    position: relative;
+    display: inline-block;
+}
+
+.cart-count {
+    position: absolute;
+    top: -8px;
+    right: -8px;
+    background-color: RED;
+    border-radius: 50%;
+    color:white;
+    padding: 4px 6px ;
+    font-size: 12px;
+}

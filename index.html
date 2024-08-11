@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Soma BookStore</title>
-    <link rel="icon" href="img/soma-logo.png">
+    <link rel="icon" class="last-img" href="img/soma-logo.png">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <script src="main.js"></script>
@@ -14,7 +14,7 @@
         <!-- Start Logo-->
         <div class="logo">
             <h1>Soma Bookstore</h1>
-            <img src="img/soma-bg.png" alt="Soma BookStore">
+            <img class="last-img" src="img/soma-bg.png" alt="Soma BookStore">
         </div> 
         <!--End Logo-->
 
@@ -57,36 +57,45 @@
         <!--End Section -->
     </nav>
 
-    <div class="last">
+    <div class="last-post">
+        <h4>المضاف حديثا</h4>
         <ul>
             <li>
                 <a href="">
                     <span class="span-img">
-                        <img class="span-img" src="img/Product/book1.jpg" alt="">
+                        <img  class="last-img" src="img/Product/book1.jpg" alt="">
                     </span>
                 </a>
             </li>
             <li>
                 <a href="">
                     <span class="span-img">
-                        <img class="span-img" src="img/Product/book2.jpg" alt="">
+                        <img  class="last-img" src="img/Product/book2.jpg" alt="">
+                    </span>
+                </a>
+            </li>
+            <li>
+                <a href="">
+                    <span class="span-img">
+                        <img  class="last-img" src="img/Product/book3.jpg" alt="">
                     </span>
                 </a>
             </li>
 
         </ul>
 
-    </div>
+    
     <!--start Cart-->
     <div class="cart">
         <ul>
             <li>
-                <a href="cart.php"><i class="fa-solid fa-cart-shopping fa-fade" style="color: #3e3609;"></i></a><span>1</span>
+                <a href="login.php"><i class="fa-solid fa-user"></i></a>
             </li>
-            <li>
-                <a href="login.php"><i class="fa-solid fa-user" style="color: #7d7d7d;"></i></a>
+            <li class="cart-icon">
+                <a href="cart.php"><i class="fa-solid fa-cart-shopping fa-fade"></i></a><span class="cart-count">1</span>
             </li>
         </ul>
+    </div>
         
     </div>
     <!--start Cart-->
