@@ -182,3 +182,46 @@ nav {
     padding: 4px 6px ;
     font-size: 12px;
 }
+
+
+/* Start product */
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.product {
+    margin: 10px;
+    padding-top: 50px;
+    padding: 20px;
+    width: 200px;
+    border: 1px solid;
+    box-shadow: 0 5px 10px green;
+    margin-bottom: 40px;
+}
+.product a{
+    color: #080808;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 4px;
+}
+
+main div .product-img {
+    width: 180px;
+    height: 200px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+main div .product-img:hover {
+    opacity: 50%;
+
+}
+
+.product-section {
+    margin-top: 5px;
+    background-color: #cceeee;
+    float: right;
+    border-bottom:double #20cfee;
+}
